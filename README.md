@@ -1,8 +1,8 @@
 ## Login Form
 
 ```
- Simple login form page, using only HTML,   
- CSS in your construction. 
+Simple login form page, using only HTML,   
+CSS in your construction. 
 
 It's quite simple, but this little project 
 begins my long personal learning  
