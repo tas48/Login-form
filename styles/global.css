@@ -3,7 +3,9 @@ html{
 }
 
 body{
-    background-color:#222;;
+    background-image: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -38,7 +40,6 @@ body{
 }
 
 .form-field input:hover{
-    /* background-color: #2f2f2f; */
     border: solid 1px #4ECCA3;
 }
 
@@ -65,6 +66,10 @@ body{
     display: inline-block;
 }
 
+.container-check input:hover{
+    border: solid 1px #4ECCA3;
+    cursor: pointer;
+}
 .container-check input:checked{
     border: 1px solid #4ECCA3;
     background-color: #4ECCA3;
@@ -96,6 +101,7 @@ body{
 .button:hover{
     border: solid 1px #56c5a0;
     background-color: #56c5a0;
+    cursor: pointer;
     
 }
 
@@ -111,13 +117,12 @@ body{
     text-transform: uppercase;
 }
 
-.link-sign:hover{
+.link:hover{
     color:#d6d6d6;
 }
 
 
-/* cadastre-se page gender radio-input*/
-
+/* "cadastre-se" page gender radio-input*/
 .gender-radio{
     display: block;
     color: #d6d6d6;
@@ -135,6 +140,11 @@ body{
     display: inline-block;
 }
 
+.gender-radio input:hover{
+    border: solid 1px #4ECCA3;
+    cursor: pointer;
+}
+
 .gender-radio input:checked{
     border: 2px solid #d6d6d6;
     border-radius: 10px;
@@ -147,11 +157,25 @@ body{
 }
 
 .gender-title{
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
     margin-bottom: 15px;
-    margin-left: 0%;
+    margin-left: 18%;
     display: block;
     font-size: 20px;
     color: #d6d6d6;
+}
+
+/* Atribution */
+.attribution a{
+    display: block;
+    text-decoration: none;
+    color:#d6d6d6;
+    text-align: right;
+    margin: 0px 30px 0px 0px;
+    font-size: 12px;   
+}
+
+.attribution a:hover{
+    color:#fff;
 }
