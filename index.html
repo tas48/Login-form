@@ -15,10 +15,37 @@
 
     <div class="container">
 
-        <h2 class="title">Login</h2>
+        <h2 class="title">Iniciar Sessão</h2>
 
+        <form>
+            <div class="form-field">
+                <input type="text" placeholder="usuário">
+                <input type="password" placeholder="senha" minlength="4" maxlength="8">
+            </div>
+            
+            <div>
+                <label for="remember-me" class="container-check">
+                    <input type="checkbox" name="remember-me" >
+                    Manter logado
+                </label>
 
-        
+                <label for="news" class="container-check">
+                    <input type="checkbox" name="news"  >
+                    Receber novidades no meu e-mail
+                </label>    
+
+            </div>
+
+            <div>
+                <input type="submit" class="login-button">
+            </div>
+
+            <div>
+                <a href="../forms/content/sign-up.html" class="link-sign">Não tem uma conta? Cadastre-se</a>
+            </div>
+
+        </form>
+
     </div>
     
 
