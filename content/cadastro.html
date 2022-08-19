@@ -6,21 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Sign Up</title>
+    <title>Cadastro</title>
 
     <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/global.css">
     
 </head>
 <body>
 
-    <label for="news" class="container-check">
-        <input type="checkbox" name="news">
-        Receber novidades no meu e-mail
-    </label>
-    <label for="" class="container-check">
-        <input type="checkbox" name="news">
-        Receber novidades no meu e-mail
-    </label>
+    <main>
+        <div class="container">
+
+            <header><h1 class="title">Cadastrar-se</h1></header> 
+
+            <form action="../index.html" method="GET">
+                
+                <div class="form-field">
+                        
+                    <input type="text" placeholder="nome" required>
+                    
+                    <input type="text" placeholder="sobrenome" required>
     
+                    <input type="email" placeholder="email" required>
+
+                    <input type="password" placeholder="senha" maxlength="8" required>
+
+                    <input type="password" placeholder="confirme sua senha" required>
+                </div>
+                
+                <div class="separator"></div>
+                
+                <div>
+                    <label for="license" class="container-check">
+                        <input type="checkbox" name="license" required>
+                        Li e aceito os termos de uso
+                    </label>
+
+                    <label for="news" class="container-check">
+                        <input type="checkbox" name="news">
+                        Receber novidades no meu e-mail
+                    </label>
+                </div>
+
+                <div>
+                    <h2 class="gender-title">Gênero</h2>
+                </div>
+
+                <div>
+                    <label for="gender" class="gender-radio">
+                        <input type="radio" name ="gender" required>
+                        Masculino
+                    </label>
+
+                    <label for="gender" class="gender-radio">
+                        <input type="radio" name ="gender" required>
+                        Feminino
+                    </label>
+                    
+                    <label for="gender" class="gender-radio">
+                        <input type="radio" name ="gender" required>
+                        Outro
+                    </label>
+                    
+                </div>
+
+                <div>
+                    <button class="login-button">Cadastrar</button>
+                    <div class="separator"></div>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
