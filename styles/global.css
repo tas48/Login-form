@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #4ECCA3;
+    background-color:#222;;
 }
 
 .container{
@@ -12,7 +12,8 @@ body{
     margin: 10% 30% 10% 30%;
     padding: 1% 2% 1% 2%;
     background-color: #222;
-    border: solid 1px #222;
+    border: none;
+    box-shadow: 0px 0px 10px 3px #2a2a2a;
     border-radius: 8px;
 }
 
@@ -22,13 +23,13 @@ body{
     margin-bottom: 40px;
     display: block;
     font-size: 26px;
-    color: #4ECCA3;
+    color: #d6d6d6;
 }
 
 .form-field input{
     display: block;
     margin: 0 auto;
-    background-color: #2a2a2a;
+    background-color: #2f2f2f;
     color:#d6d6d6;
     border-radius: 4px;
     padding: 12px;
@@ -37,7 +38,8 @@ body{
 }
 
 .form-field input:hover{
-    background-color: #2f2f2f;
+    /* background-color: #2f2f2f; */
+    border: solid 1px #4ECCA3;
 }
 
 .form-field input::placeholder{
@@ -46,9 +48,6 @@ body{
     font-weight: 700;
 }
 
-.form-field input:required{
-    background-color: #2a2a2a;
-}
 .container-check{
     display: block;
     color: #d6d6d6;
@@ -60,6 +59,7 @@ body{
 .container-check input{
     all:unset;
     border: 1px solid #2f2f2f;
+    margin-right: 3px;
     width: 12px;
     height: 12px;
     display: inline-block;
@@ -80,7 +80,7 @@ body{
     height: 10px;
 }
 
-.login-button{
+.button{
     display: block;
     margin: 0 auto;
     margin-top: 40px;
@@ -93,13 +93,13 @@ body{
     font-weight: 600;
 }
 
-.login-button:hover{
+.button:hover{
     border: solid 1px #56c5a0;
     background-color: #56c5a0;
     
 }
 
-.link-sign{
+.link{
     display: block;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -147,11 +147,11 @@ body{
 }
 
 .gender-title{
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 15px;
-    margin-left: 18%;
+    margin-left: 0%;
     display: block;
-    font-size: 22px;
-    color: #4ECCA3;
+    font-size: 20px;
+    color: #d6d6d6;
 }

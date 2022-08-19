@@ -19,10 +19,12 @@
             <header><h1 class="title">Iniciar Sessão</h1></header> 
 
             <form action="content/sucesso.html" method="GET">
-                
+
                 <div class="form-field">
-                    <input type="text" placeholder="usuário" required>
-                    <input type="password" placeholder="senha" minlength="4" maxlength="8" required>
+
+                    <input type="email" name="email" placeholder="e-mail" required>
+                    <input type="password" name="senha" placeholder="senha" minlength="4" maxlength="8" required>
+
                 </div>
                 
                 <div class="separator"></div>
@@ -35,11 +37,11 @@
                 </div>
 
                 <div>
-                    <button class="login-button">Login</button>
+                    <button class="button">Login</button>
                 </div>
 
                 <div>
-                    <a href="content/cadastro.html" class="link-sign">Não tem uma conta? Cadastre-se</a>
+                    <a href="content/cadastro.html" class="link">Não tem uma conta? Cadastre-se</a>
                 </div>
             </form>
         </div>
