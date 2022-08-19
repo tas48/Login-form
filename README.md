@@ -9,7 +9,7 @@ begins my long personal learning
 journey in web development's world!
 
 ```
-You can acess the site by clicking <a href="https://tas48.github.io/Login-form" target="_blank"><em><strong>here</strong></em></a>.
+You can acess the site by clicking <a href="https://tas48.github.io/Login-form" target="blank"><em><strong>here</strong></em></a>.
 
  
 
